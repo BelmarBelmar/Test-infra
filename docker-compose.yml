@@ -1,0 +1,7 @@
+services:
+  test-infra-api:
+    build: .
+    container_name: fastapi-test-container
+    restart: always
+    ports:
+      - "8091:8000"
