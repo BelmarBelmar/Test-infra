@@ -19,7 +19,7 @@ def home():
 
 @app.get("/ping")
 def ping():
-    return {"status": "success", "message": "Ping reussi"}
+    return {"status": "success", "message": "Ping reussi. Test de l'auto deploy"}
 
 
 @app.get("/db-test")
